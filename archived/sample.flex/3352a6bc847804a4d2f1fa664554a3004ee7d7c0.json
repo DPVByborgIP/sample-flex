@@ -1,0 +1,24 @@
+{
+    "manifests": {
+        "sample/flex": {
+            "manifest": {
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                },
+                "copy-from-package": {
+                    ".test": ".test"
+                }
+            },
+            "files": {
+                "config/services.yaml": {
+                    "contents": [
+                        "sample_flex:",
+                        "  enable: true"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "3352a6bc847804a4d2f1fa664554a3004ee7d7c0"
+        }
+    }
+}
