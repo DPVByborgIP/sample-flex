@@ -1,15 +1,18 @@
 {
+    "aliases": [],
     "recipes": {
         "sample/flex": [
             "1.0"
         ]
     },
+    "recipe-conflicts": [],
+    "versions": [],
     "branch": "main",
-    "is_contrib": true,
+    "is_contrib": false,
     "_links": {
         "repository": "github.com/DPVByborgIP/sample-flex",
         "origin_template": "{package}:{version}@github.com/DPVByborgIP/sample-flex:main",
-        "recipe_template": "https://api.github.com/repos/DPVByborgIP/sample-flex/contents/{package_dotted}.{version}.json",
+        "recipe_template": "https://raw.githubusercontent.com/DPVByborgIP/sample-flex/main/{package_dotted}.{version}.json",
         "recipe_template_relative": "{package_dotted}.{version}.json",
         "archived_recipes_template": "https://raw.githubusercontent.com/DPVByborgIP/sample-flex/main/archived/{package_dotted}/{ref}.json",
         "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
