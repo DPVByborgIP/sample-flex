@@ -5,6 +5,7 @@
         "symfony/flex": "^2.4.5"
     },
     "extra": {
+        "class": "Sample\\Flex\\Flex",
         "symfony": {
             "recipe": {
                 "repo": "https://github.com/DPVByborgIP/sample-flex",
