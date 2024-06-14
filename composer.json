@@ -12,5 +12,10 @@
                 "branch": "main"
             }
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
     }
 }
