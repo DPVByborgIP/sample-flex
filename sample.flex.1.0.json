@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "sample/flex": {
+            "manifest": {
+                "bundles": {
+                    "Sample\\SampleFlex\\TestFlex": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/packages/sample_flex.yaml": {
+                    "contents": [
+                        "sample_flex:",
+                        "    encode: true",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "a104a36b2292655d7a7114e06e71bcf2fc5e6c27"
+        }
+    }
+}

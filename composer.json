@@ -1,0 +1,15 @@
+{
+    "name": "sample/flex",
+    "description": "A custom Flex recipe",
+    "require": {
+        "symfony/flex": "^2.4.5"
+    },
+    "extra": {
+        "symfony": {
+            "recipe": {
+                "repo": "https://github.com/DPVByborgIP/sample-flex",
+                "branch": "main"
+            }
+        }
+    }
+}
